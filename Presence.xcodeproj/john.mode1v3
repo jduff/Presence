@@ -275,7 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>12</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PersonDetailsViewController.m</string>
+								<string>Person.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PersonDetailsViewController.m</string>
+										<string>Person.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>52831B5E1072E75500C89646</string>
+										<string>52831B6A1072E94000C89646</string>
 										<key>history</key>
 										<array>
 											<string>526213A410684AF20072DF0C</string>
@@ -342,10 +342,10 @@
 											<string>52831A831072AA4900C89646</string>
 											<string>52831A851072AA4900C89646</string>
 											<string>52831A861072AA4900C89646</string>
-											<string>52831B381072E1AD00C89646</string>
-											<string>52831B4D1072E38200C89646</string>
 											<string>52831B4E1072E38200C89646</string>
-											<string>52831B4F1072E38200C89646</string>
+											<string>52831B611072E94000C89646</string>
+											<string>52831B621072E94000C89646</string>
+											<string>52831B631072E94000C89646</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -438,6 +438,12 @@
 											<string>52831B501072E38200C89646</string>
 											<string>52831B511072E38200C89646</string>
 											<string>52831B521072E38200C89646</string>
+											<string>52831B641072E94000C89646</string>
+											<string>52831B651072E94000C89646</string>
+											<string>52831B661072E94000C89646</string>
+											<string>52831B671072E94000C89646</string>
+											<string>52831B681072E94000C89646</string>
+											<string>52831B691072E94000C89646</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

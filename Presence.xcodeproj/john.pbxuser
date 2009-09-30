@@ -398,6 +398,16 @@
 			52831B5B1072E65500C89646 /* PBXTextBookmark */ = 52831B5B1072E65500C89646 /* PBXTextBookmark */;
 			52831B5C1072E69D00C89646 /* PBXTextBookmark */ = 52831B5C1072E69D00C89646 /* PBXTextBookmark */;
 			52831B5E1072E75500C89646 /* PBXTextBookmark */ = 52831B5E1072E75500C89646 /* PBXTextBookmark */;
+			52831B611072E94000C89646 /* PBXTextBookmark */ = 52831B611072E94000C89646 /* PBXTextBookmark */;
+			52831B621072E94000C89646 /* PBXTextBookmark */ = 52831B621072E94000C89646 /* PBXTextBookmark */;
+			52831B631072E94000C89646 /* PBXTextBookmark */ = 52831B631072E94000C89646 /* PBXTextBookmark */;
+			52831B641072E94000C89646 /* PBXTextBookmark */ = 52831B641072E94000C89646 /* PBXTextBookmark */;
+			52831B651072E94000C89646 /* PBXTextBookmark */ = 52831B651072E94000C89646 /* PBXTextBookmark */;
+			52831B661072E94000C89646 /* PBXTextBookmark */ = 52831B661072E94000C89646 /* PBXTextBookmark */;
+			52831B671072E94000C89646 /* PBXTextBookmark */ = 52831B671072E94000C89646 /* PBXTextBookmark */;
+			52831B681072E94000C89646 /* PBXTextBookmark */ = 52831B681072E94000C89646 /* PBXTextBookmark */;
+			52831B691072E94000C89646 /* PBXTextBookmark */ = 52831B691072E94000C89646 /* PBXTextBookmark */;
+			52831B6A1072E94000C89646 /* PBXTextBookmark */ = 52831B6A1072E94000C89646 /* PBXTextBookmark */;
 			52E19AE810697FBB00218CCF = 52E19AE810697FBB00218CCF /* PBXTextBookmark */;
 			52E19AE910697FBB00218CCF = 52E19AE910697FBB00218CCF /* PBXTextBookmark */;
 			52E19AEA10697FBB00218CCF = 52E19AEA10697FBB00218CCF /* PlistBookmark */;
@@ -436,7 +446,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 48";
 		rLen = 0;
-		rLoc = 1444;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 912;
 		vrLoc = 178;
@@ -936,7 +946,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 50";
 		rLen = 0;
-		rLoc = 1444;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 179;
@@ -946,7 +956,7 @@
 		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
 		name = "Person.h: 23";
 		rLen = 0;
-		rLoc = 454;
+		rLoc = 448;
 		rType = 0;
 		vrLen = 547;
 		vrLoc = 0;
@@ -966,7 +976,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 30";
 		rLen = 0;
-		rLoc = 682;
+		rLoc = 678;
 		rType = 0;
 		vrLen = 1002;
 		vrLoc = 179;
@@ -976,7 +986,7 @@
 		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
 		name = "Person.h: 23";
 		rLen = 0;
-		rLoc = 454;
+		rLoc = 448;
 		rType = 0;
 		vrLen = 547;
 		vrLoc = 0;
@@ -1086,7 +1096,7 @@
 		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
 		name = "Person.h: 23";
 		rLen = 0;
-		rLoc = 454;
+		rLoc = 448;
 		rType = 0;
 		vrLen = 547;
 		vrLoc = 0;
@@ -1146,7 +1156,7 @@
 		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
 		name = "Person.h: 23";
 		rLen = 0;
-		rLoc = 454;
+		rLoc = 448;
 		rType = 0;
 		vrLen = 547;
 		vrLoc = 0;
@@ -1246,7 +1256,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 34";
 		rLen = 0;
-		rLoc = 900;
+		rLoc = 896;
 		rType = 0;
 		vrLen = 1002;
 		vrLoc = 178;
@@ -1296,7 +1306,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 29";
 		rLen = 1;
-		rLoc = 680;
+		rLoc = 676;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 152;
@@ -1316,7 +1326,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 29";
 		rLen = 1;
-		rLoc = 680;
+		rLoc = 676;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 152;
@@ -1395,7 +1405,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {725, 924}}";
 			sepNavSelRange = "{698, 0}";
-			sepNavVisRange = "{150, 1923}";
+			sepNavVisRange = "{150, 1998}";
 		};
 	};
 	526212681068187E0072DF0C /* PBXTextBookmark */ = {
@@ -1699,7 +1709,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 29";
 		rLen = 1;
-		rLoc = 680;
+		rLoc = 676;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 152;
@@ -1719,7 +1729,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 39";
 		rLen = 0;
-		rLoc = 877;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 939;
 		vrLoc = 351;
@@ -1729,7 +1739,7 @@
 		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
 		name = "Person.h: 23";
 		rLen = 0;
-		rLoc = 454;
+		rLoc = 448;
 		rType = 0;
 		vrLen = 547;
 		vrLoc = 0;
@@ -1739,7 +1749,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 683;
+		rLoc = 679;
 		rType = 0;
 		vrLen = 825;
 		vrLoc = 0;
@@ -1749,7 +1759,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 683;
+		rLoc = 679;
 		rType = 0;
 		vrLen = 825;
 		vrLoc = 0;
@@ -1759,7 +1769,7 @@
 		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
 		name = "Person.h: 23";
 		rLen = 0;
-		rLoc = 454;
+		rLoc = 448;
 		rType = 0;
 		vrLen = 547;
 		vrLoc = 0;
@@ -1769,7 +1779,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 66";
 		rLen = 0;
-		rLoc = 1582;
+		rLoc = 1480;
 		rType = 0;
 		vrLen = 939;
 		vrLoc = 418;
@@ -1779,7 +1789,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 66";
 		rLen = 0;
-		rLoc = 1582;
+		rLoc = 1480;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 399;
@@ -1799,7 +1809,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 66";
 		rLen = 0;
-		rLoc = 1582;
+		rLoc = 1480;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 399;
@@ -1849,7 +1859,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 46";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 902;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 250;
@@ -1889,7 +1899,7 @@
 		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
 		name = "Person.h: 22";
 		rLen = 0;
-		rLoc = 411;
+		rLoc = 405;
 		rType = 0;
 		vrLen = 540;
 		vrLoc = 0;
@@ -1919,7 +1929,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 46";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 902;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 250;
@@ -1969,7 +1979,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 574;
+		rLoc = 570;
 		rType = 0;
 		vrLen = 1261;
 		vrLoc = 179;
@@ -1989,7 +1999,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 32";
 		rLen = 0;
-		rLoc = 654;
+		rLoc = 650;
 		rType = 0;
 		vrLen = 1264;
 		vrLoc = 250;
@@ -2009,7 +2019,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 574;
+		rLoc = 570;
 		rType = 0;
 		vrLen = 1261;
 		vrLoc = 179;
@@ -2029,7 +2039,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 627;
 		rType = 0;
 		vrLen = 1172;
 		vrLoc = 376;
@@ -2039,7 +2049,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 627;
 		rType = 0;
 		vrLen = 1172;
 		vrLoc = 376;
@@ -2049,7 +2059,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 571;
+		rLoc = 567;
 		rType = 0;
 		vrLen = 1174;
 		vrLoc = 376;
@@ -2059,7 +2069,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 60";
 		rLen = 0;
-		rLoc = 1420;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 376;
@@ -2069,7 +2079,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 30";
 		rLen = 0;
-		rLoc = 571;
+		rLoc = 567;
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 348;
@@ -2119,7 +2129,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 30";
 		rLen = 0;
-		rLoc = 571;
+		rLoc = 567;
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 348;
@@ -2339,7 +2349,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 30";
 		rLen = 0;
-		rLoc = 571;
+		rLoc = 567;
 		rType = 0;
 		vrLen = 1184;
 		vrLoc = 348;
@@ -2359,7 +2369,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 21";
 		rLen = 0;
-		rLoc = 403;
+		rLoc = 399;
 		rType = 0;
 		vrLen = 1031;
 		vrLoc = 32;
@@ -2369,7 +2379,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 21";
 		rLen = 0;
-		rLoc = 403;
+		rLoc = 399;
 		rType = 0;
 		vrLen = 1031;
 		vrLoc = 32;
@@ -2379,7 +2389,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 999;
 		vrLoc = 0;
@@ -2399,7 +2409,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 999;
 		vrLoc = 0;
@@ -2499,7 +2509,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 427;
@@ -2539,7 +2549,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 427;
@@ -2669,7 +2679,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 1187;
 		vrLoc = 376;
@@ -2749,7 +2759,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 31";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 1187;
 		vrLoc = 376;
@@ -3725,7 +3735,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 66";
 		rLen = 0;
-		rLoc = 1513;
+		rLoc = 1411;
 		rType = 0;
 		vrLen = 1205;
 		vrLoc = 376;
@@ -3735,7 +3745,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 66";
 		rLen = 0;
-		rLoc = 1513;
+		rLoc = 1411;
 		rType = 0;
 		vrLen = 1205;
 		vrLoc = 376;
@@ -3745,7 +3755,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 66";
 		rLen = 0;
-		rLoc = 1513;
+		rLoc = 1411;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 225;
@@ -3775,7 +3785,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 66";
 		rLen = 0;
-		rLoc = 1513;
+		rLoc = 1411;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 225;
@@ -3850,6 +3860,106 @@
 		vrLen = 1923;
 		vrLoc = 150;
 	};
+	52831B611072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 26";
+		rLen = 0;
+		rLoc = 698;
+		rType = 0;
+		vrLen = 1998;
+		vrLoc = 150;
+	};
+	52831B621072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
+		name = "Person.m: 34";
+		rLen = 0;
+		rLoc = 678;
+		rType = 0;
+		vrLen = 1254;
+		vrLoc = 225;
+	};
+	52831B631072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
+		name = "Person.h: 23";
+		rLen = 0;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 0;
+	};
+	52831B641072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 26";
+		rLen = 0;
+		rLoc = 698;
+		rType = 0;
+		vrLen = 1998;
+		vrLoc = 150;
+	};
+	52831B651072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
+		name = "Person.m: 66";
+		rLen = 0;
+		rLoc = 1411;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 203;
+	};
+	52831B661072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
+		name = "Person.h: 23";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 0;
+	};
+	52831B671072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
+		name = "Person.m: 46";
+		rLen = 0;
+		rLoc = 902;
+		rType = 0;
+		vrLen = 1266;
+		vrLoc = 225;
+	};
+	52831B681072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
+		name = "Person.h: 23";
+		rLen = 0;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 0;
+	};
+	52831B691072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
+		name = "Person.m: 34";
+		rLen = 0;
+		rLoc = 678;
+		rType = 0;
+		vrLen = 1254;
+		vrLoc = 225;
+	};
+	52831B6A1072E94000C89646 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
+		name = "Person.h: 18";
+		rLen = 0;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 0;
+	};
 	52E19AD210697B0A00218CCF /* TwitterHelper.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {804, 708}}";
@@ -3866,16 +3976,16 @@
 	};
 	52E19ADD10697D4D00218CCF /* Person.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {725, 708}}";
-			sepNavSelRange = "{180, 0}";
-			sepNavVisRange = "{0, 540}";
+			sepNavIntBoundsRect = "{{0, 0}, {725, 685}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 534}";
 		};
 	};
 	52E19ADE10697D4D00218CCF /* Person.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {725, 1022}}";
-			sepNavSelRange = "{1513, 0}";
-			sepNavVisRange = "{225, 1242}";
+			sepNavIntBoundsRect = "{{0, 0}, {725, 966}}";
+			sepNavSelRange = "{678, 0}";
+			sepNavVisRange = "{225, 1254}";
 		};
 	};
 	52E19AE110697DE700218CCF /* Person.h:12 */ = {
@@ -3960,7 +4070,7 @@
 		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
 		name = "Person.h: 18";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 528;
 		rType = 0;
 		vrLen = 294;
 		vrLoc = 0;

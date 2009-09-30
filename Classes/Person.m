@@ -18,7 +18,7 @@
 
 - (id) initWithUsername:(NSString *)value {
 	if(self == [super init]) {
-		username = [value retain];
+		self.username = value;
 		[self loadData];
 	}
 	return self;
@@ -45,19 +45,15 @@
 	}
 }
 
-- (UIImage *) profileImageUrl {
-	NSLog(@"Accessing profileImage");
-	return profileImage;
-}
-
 - (void) loadData {
 	NSLog(@"Loading data from Twitter");
 	// load the data from twitter
 	NSDictionary *data = [TwitterHelper fetchInfoForUsername:self.username];
-	displayName = [[data objectForKey:@"screen_name"] retain];
 	NSData *imageData = [[NSData alloc] 
 						  initWithContentsOfURL:[NSURL URLWithString:[data objectForKey:@"profile_image_url"]]];
-	profileImage = [[[UIImage alloc] initWithData:imageData] retain];
+	
+	self.profileImage = [[UIImage alloc] initWithData:imageData];
+	self.displayName = [data objectForKey:@"screen_name"];
 	[imageData release];
 }
 

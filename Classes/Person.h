@@ -17,9 +17,9 @@
 	
 }
 
-@property(readonly) NSString *username;
-@property(readonly) NSString *displayName;
-@property(readonly) UIImage *profileImage;
+@property(retain) NSString *username;
+@property(retain) NSString *displayName;
+@property(retain) UIImage *profileImage;
 @property(readonly) NSArray *statusUpdates;
 
 - (id) initWithUsername:(NSString *)value;
