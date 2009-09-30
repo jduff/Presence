@@ -30,9 +30,10 @@
 	return self;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-	[super viewWillAppear:animated];
+- (void)viewDidLoad {
+	[super viewDidLoad];
 	self.title = @"People";
+	self.tableView.rowHeight = 56; // 75 pixel square image + 10 pixels of padding on either side.
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

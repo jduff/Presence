@@ -83,8 +83,8 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 				</object>
 			</object>
-			<object class="IBUITableViewController" id="476588474">
-				<object class="IBUITableView" key="IBUIView" id="279845142">
+			<object class="IBUITableViewController" id="993115624">
+				<object class="IBUITableView" key="IBUIView" id="979531016">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
 					<string key="NSFrameSize">{320, 460}</string>
@@ -149,16 +149,16 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="279845142"/>
-						<reference key="destination" ref="476588474"/>
+						<reference key="source" ref="979531016"/>
+						<reference key="destination" ref="993115624"/>
 					</object>
 					<int key="connectionID">42</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">dataSource</string>
-						<reference key="source" ref="279845142"/>
-						<reference key="destination" ref="476588474"/>
+						<reference key="source" ref="979531016"/>
+						<reference key="destination" ref="993115624"/>
 					</object>
 					<int key="connectionID">43</int>
 				</object>
@@ -234,17 +234,17 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">40</int>
-						<reference key="object" ref="476588474"/>
+						<reference key="object" ref="993115624"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="279845142"/>
+							<reference ref="979531016"/>
 						</object>
 						<reference key="parent" ref="297076929"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">41</int>
-						<reference key="object" ref="279845142"/>
-						<reference key="parent" ref="476588474"/>
+						<reference key="object" ref="979531016"/>
+						<reference key="parent" ref="993115624"/>
 					</object>
 				</object>
 			</object>

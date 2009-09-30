@@ -12,8 +12,8 @@
 
 @synthesize person;
 
-- (void)viewWillAppear:(BOOL)animated {
-	[super viewWillAppear:animated];
+- (void)viewDidLoad {
+	[super viewDidLoad];
 	NSLog(@"showing details view");
 	self.title = person.displayName;
 }
