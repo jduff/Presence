@@ -21,6 +21,12 @@
 		5262123310680E010072DF0C /* PersonDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5262123110680E010072DF0C /* PersonDetailsView.xib */; };
 		526213891068370D0072DF0C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526213881068370D0072DF0C /* background.jpg */; };
 		5262138E106837D90072DF0C /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5262138D106837D90072DF0C /* background2.jpg */; };
+		52E19AAD10697AB700218CCF /* TwitterUsers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52E19AAC10697AB700218CCF /* TwitterUsers.plist */; };
+		52E19ACF10697AF600218CCF /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E19ACA10697AF600218CCF /* NSObject+SBJSON.m */; };
+		52E19AD010697AF600218CCF /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E19ACC10697AF600218CCF /* NSString+SBJSON.m */; };
+		52E19AD110697AF600218CCF /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E19ACE10697AF600218CCF /* SBJSON.m */; };
+		52E19AD410697B0A00218CCF /* TwitterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E19AD210697B0A00218CCF /* TwitterHelper.m */; };
+		52E19ADF10697D4D00218CCF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E19ADE10697D4D00218CCF /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +49,18 @@
 		5262123110680E010072DF0C /* PersonDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PersonDetailsView.xib; path = Classes/PersonDetailsView.xib; sourceTree = "<group>"; };
 		526213881068370D0072DF0C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		5262138D106837D90072DF0C /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
+		52E19AAC10697AB700218CCF /* TwitterUsers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TwitterUsers.plist; sourceTree = "<group>"; };
+		52E19AC810697AF600218CCF /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		52E19AC910697AF600218CCF /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		52E19ACA10697AF600218CCF /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		52E19ACB10697AF600218CCF /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		52E19ACC10697AF600218CCF /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		52E19ACD10697AF600218CCF /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		52E19ACE10697AF600218CCF /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		52E19AD210697B0A00218CCF /* TwitterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterHelper.m; sourceTree = "<group>"; };
+		52E19AD310697B0A00218CCF /* TwitterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterHelper.h; sourceTree = "<group>"; };
+		52E19ADD10697D4D00218CCF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		52E19ADE10697D4D00218CCF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Presence-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Presence-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,12 +81,15 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				52E19AAF10697AE800218CCF /* Twitter */,
 				5262122F10680E010072DF0C /* PersonDetailsViewController.h */,
 				5262123010680E010072DF0C /* PersonDetailsViewController.m */,
 				526211E21067C44E0072DF0C /* PersonListViewController.h */,
 				526211E31067C44E0072DF0C /* PersonListViewController.m */,
 				1D3623240D0F684500981E51 /* PresenceAppDelegate.h */,
 				1D3623250D0F684500981E51 /* PresenceAppDelegate.m */,
+				52E19ADD10697D4D00218CCF /* Person.h */,
+				52E19ADE10697D4D00218CCF /* Person.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -105,6 +126,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				52E19AAC10697AB700218CCF /* TwitterUsers.plist */,
 				5262138D106837D90072DF0C /* background2.jpg */,
 				526213881068370D0072DF0C /* background.jpg */,
 				5262123110680E010072DF0C /* PersonDetailsView.xib */,
@@ -125,6 +147,30 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52E19AAF10697AE800218CCF /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				52E19AD210697B0A00218CCF /* TwitterHelper.m */,
+				52E19AD310697B0A00218CCF /* TwitterHelper.h */,
+				52E19AC710697AF600218CCF /* JSON */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+		52E19AC710697AF600218CCF /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				52E19AC810697AF600218CCF /* JSON.h */,
+				52E19AC910697AF600218CCF /* NSObject+SBJSON.h */,
+				52E19ACA10697AF600218CCF /* NSObject+SBJSON.m */,
+				52E19ACB10697AF600218CCF /* NSString+SBJSON.h */,
+				52E19ACC10697AF600218CCF /* NSString+SBJSON.m */,
+				52E19ACD10697AF600218CCF /* SBJSON.h */,
+				52E19ACE10697AF600218CCF /* SBJSON.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +222,7 @@
 				5262123310680E010072DF0C /* PersonDetailsView.xib in Resources */,
 				526213891068370D0072DF0C /* background.jpg in Resources */,
 				5262138E106837D90072DF0C /* background2.jpg in Resources */,
+				52E19AAD10697AB700218CCF /* TwitterUsers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +237,11 @@
 				1D3623260D0F684500981E51 /* PresenceAppDelegate.m in Sources */,
 				526211E41067C44E0072DF0C /* PersonListViewController.m in Sources */,
 				5262123210680E010072DF0C /* PersonDetailsViewController.m in Sources */,
+				52E19ACF10697AF600218CCF /* NSObject+SBJSON.m in Sources */,
+				52E19AD010697AF600218CCF /* NSString+SBJSON.m in Sources */,
+				52E19AD110697AF600218CCF /* SBJSON.m in Sources */,
+				52E19AD410697B0A00218CCF /* TwitterHelper.m in Sources */,
+				52E19ADF10697D4D00218CCF /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

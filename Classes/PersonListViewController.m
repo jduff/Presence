@@ -8,50 +8,63 @@
 
 #import "PersonListViewController.h"
 #import "PersonDetailsViewController.h"
+#import "Person.h"
 
 
 @implementation PersonListViewController
 
-- (id)initWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle {
-	if(self == [super initWithNibName:nibName bundle:bundle]) {
-		self.title = @"People";
-		
-		UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
-		[rightButton addTarget:self action:@selector(rightButtonAction:) forControlEvents:UIControlEventTouchUpInside];
-		UIBarButtonItem *rightButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightButton];
-		self.navigationItem.rightBarButtonItem = rightButtonItem;
-		[rightButtonItem release];
+- (id)initWithStyle:(UITableViewStyle)style {
+	[super initWithStyle:style];
+	NSLog(@"loading");
+	
+	// Load the list of people into an array
+	NSArray *data= [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] 
+													  pathForResource:@"TwitterUsers" 
+													  ofType:@"plist"]];
+	// Create an ayyay of Person objects from the people
+	people = [[NSMutableArray alloc] init];
+	for(id user in data) {
+		[people addObject:[[Person alloc] initWithUsername:user]];
 	}
+	[people retain];
 	return self;
 }
 
-- (IBAction)rightButtonAction:(id)sender{
-	UIAlertView *infoAlert = [[UIAlertView alloc]
-							   initWithTitle: @"Info"
-							   message: @"I am Presence"
-							   delegate:nil
-							   cancelButtonTitle:@"OK"
-							   otherButtonTitles:nil];
-    [infoAlert show];
-    [infoAlert release];
-	
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	self.title = @"People";
 }
 
-- (IBAction)viewPerson:(id)sender {
-	PersonDetailsViewController *detailsView = [[PersonDetailsViewController alloc] initWithNibName:@"PersonDetailsView" 
-																							 bundle:[NSBundle mainBundle]];
-	if(sender == joshButton) {
-		detailsView.status = @"I am the Awesome Josh!";
-		detailsView.name = @"Josh";
-		detailsView.image = joshImage.image;
-	}
-	else {
-		detailsView.status = @"Geoff is doing iPhone stuff!";
-		detailsView.name = @"Geoff";
-		detailsView.image = geoffImage.image;
-	}
-    [self.navigationController pushViewController: detailsView animated:YES];
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	NSLog(@"number of people %d",[people count]);
+	return [people count];
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UserListItem"]; 
+	if (cell == nil) { 
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UserListItem"];
+		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	} 
+	cell.textLabel.text = [[people objectAtIndex:indexPath.row] displayName];
+	cell.imageView.image = [[people objectAtIndex:indexPath.row] profileImage];
+	NSLog(@"display name %@", [[people objectAtIndex:indexPath.row] displayName]);
+	return cell;		
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	PersonDetailsViewController *detailsView = [[PersonDetailsViewController alloc] 
+												initWithStyle:UITableViewStyleGrouped];
+	
+	detailsView.person = [people objectAtIndex:indexPath.row];
+	
+	[[self navigationController] pushViewController:detailsView
+										   animated:YES];
 	[detailsView release];
+}
+
+- (void) dealloc {
+	[people release];
+	[super dealloc];
 }
 
 @end

@@ -7,21 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Person.h"
 
 
-@interface PersonDetailsViewController : UIViewController {
-    IBOutlet UILabel *nameLabel;
-	IBOutlet UILabel *statusLabel;
-	IBOutlet UIImageView *imageView;
-	
-	NSString *name;
-	NSString *status;
-	UIImage *image;
+@interface PersonDetailsViewController : UITableViewController {
+	Person *person;
 }
 
-@property (assign) NSString *name;
-@property (assign) NSString *status;
-@property (assign) UIImage *image;
+@property (nonatomic, retain) Person *person;
 
-
+- (NSString *)statusAtIndex:(NSInteger)index;
 @end

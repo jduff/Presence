@@ -9,14 +9,16 @@
 #import <UIKit/UIKit.h>
 
 
-@interface PersonListViewController : UIViewController {
-	IBOutlet UIButton *joshButton;
-	IBOutlet UIButton *geoffButton;
-	IBOutlet UIImageView *joshImage;
-	IBOutlet UIImageView *geoffImage;
+@interface PersonListViewController : UITableViewController {
+//	IBOutlet UIButton *joshButton;
+//	IBOutlet UIButton *geoffButton;
+//	IBOutlet UIImageView *joshImage;
+//	IBOutlet UIImageView *geoffImage;
+	
+	NSMutableArray *people;
 }
-
-- (IBAction)viewPerson:(id)sender;
-- (IBAction)rightButtonAction:(id)sender;
+//
+//- (IBAction)viewPerson:(id)sender;
+//- (IBAction)rightButtonAction:(id)sender;
 
 @end
