@@ -11,12 +11,73 @@
 @implementation PersonDetailsViewController
 
 @synthesize person;
+@synthesize statusUpdates;
+
+- (id)initWithStyle:(UITableViewStyle)style {
+	self = [super initWithStyle:style];
+    if (self) {
+		operationsQueue = [[NSOperationQueue alloc] init];
+		[operationsQueue setMaxConcurrentOperationCount:1];
+		
+	}
+	return self;
+}
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	NSLog(@"showing details view");
 	self.title = person.displayName;
+	
+	[self showLoadingIndicators];
+	NSInvocationOperation *operation = [[NSInvocationOperation alloc] initWithTarget:self 
+																			selector:@selector(loadStatusUpdates) 
+																			  object:nil];
+	[operationsQueue addOperation:operation];
+	[operation release];
 }
+
+- (void) loadStatusUpdates {
+	[self performSelectorOnMainThread:@selector(finishedLoadingStatusUpdates:) 
+						   withObject:person.statusUpdates 
+						waitUntilDone:NO]; 
+}
+
+- (void) finishedLoadingStatusUpdates:(NSArray *)updates {
+	self.statusUpdates = [updates retain];
+	[self hideLoadingIndicators];
+	[self.tableView reloadData];
+	[self.tableView flashScrollIndicators];
+}
+
+#pragma mark -
+#pragma mark Loading Indicators
+
+- (void)showLoadingIndicators {
+    if (!spinner) {
+        spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+        [spinner startAnimating];
+        
+        static CGFloat bufferWidth = 8.0;
+        
+        CGRect spinnerFrame = spinner.frame;
+        spinnerFrame.origin.x = (self.tableView.bounds.size.width - spinnerFrame.size.width - bufferWidth) / 2.0;
+        spinnerFrame.origin.y = (self.tableView.bounds.size.height - spinnerFrame.size.height) / 2.0;
+        spinner.frame = spinnerFrame;
+        [self.tableView addSubview:spinner];
+    }
+}
+
+- (void)hideLoadingIndicators {
+    if (spinner) {
+        [spinner stopAnimating];
+        [spinner removeFromSuperview];
+        [spinner release];
+        spinner = nil;
+    }
+}
+
+#pragma mark -
+#pragma mark Table View Delegate Methods
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
 	UILabel *label = [[UILabel alloc] init];
@@ -31,8 +92,8 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	NSLog(@"number of updates %d",[person.statusUpdates count]);
-	return [person.statusUpdates count];
+	NSLog(@"number of updates %d",[self.statusUpdates count]);
+	return [self.statusUpdates count];
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UserStatusItem"]; 
@@ -54,12 +115,13 @@
 }
 
 - (NSString *)statusAtIndex:(NSInteger)index {
-	return [[person.statusUpdates objectAtIndex:index] objectForKey:@"text"];
+	return [[self.statusUpdates objectAtIndex:index] objectForKey:@"text"];
 }
 
 - (void) dealloc {
 	NSLog(@"details view dealloc");
 	[person release];
+	[statusUpdates release];
 	[super dealloc];
 }
 

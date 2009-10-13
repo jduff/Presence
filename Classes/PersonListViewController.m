@@ -11,6 +11,8 @@
 #import "ImageLoadingOperation.h"
 #import "TwitterHelper.h"
 
+NSString *const TwitterUsername = @"username";
+NSString *const TwitterPassword = @"password";
 
 @implementation PersonListViewController
 
@@ -73,7 +75,7 @@
 
 
 - (void) sendMessage:(NSString *)message {
-	[TwitterHelper updateStatus:message forUsername:@"username" withPassword:@"password"];
+	[TwitterHelper updateStatus:message forUsername:TwitterUsername withPassword:TwitterPassword];
 	
 	[self performSelectorOnMainThread:@selector(didFinishSendingMessage) 
 						   withObject:nil 

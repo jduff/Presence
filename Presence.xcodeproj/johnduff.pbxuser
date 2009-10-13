@@ -86,7 +86,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 197;
+		rLoc = 199;
 		rType = 1;
 	};
 	23EFB592107FB0CB0057E3E3 /* PBXTextBookmark */ = {
@@ -94,12 +94,12 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 114";
 		rLen = 0;
-		rLoc = 6143;
+		rLoc = 6245;
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 3083;
 	};
-	23EFB5AE107FB94E0057E3E3 /* PersonListViewController.m:153 */ = {
+	23EFB5AE107FB94E0057E3E3 /* PersonListViewController.m:155 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -111,7 +111,7 @@
 		functionName = "-getImageForURL:";
 		hitCount = 6;
 		ignoreCount = 0;
-		lineNumber = 153;
+		lineNumber = 155;
 		location = Presence;
 		modificationTime = 276806695.806887;
 		originalNumberOfMultipleMatches = 1;
@@ -172,7 +172,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 53";
 		rLen = 0;
-		rLoc = 1182;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 133;
@@ -202,7 +202,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 128";
 		rLen = 0;
-		rLoc = 5371;
+		rLoc = 5473;
 		rType = 0;
 		vrLen = 1859;
 		vrLoc = 1937;
@@ -212,12 +212,12 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 128";
 		rLen = 0;
-		rLoc = 5371;
+		rLoc = 5473;
 		rType = 0;
 		vrLen = 1824;
 		vrLoc = 1937;
 	};
-	23EFB5C3107FB9820057E3E3 /* PersonListViewController.m:175 */ = {
+	23EFB5C3107FB9820057E3E3 /* PersonListViewController.m:177 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -229,7 +229,7 @@
 		functionName = "-didFinishLoadingImageWithResult:";
 		hitCount = 1;
 		ignoreCount = 0;
-		lineNumber = 175;
+		lineNumber = 177;
 		location = Presence;
 		modificationTime = 276806674.515179;
 		originalNumberOfMultipleMatches = 1;
@@ -240,7 +240,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 144";
 		rLen = 0;
-		rLoc = 6143;
+		rLoc = 6245;
 		rType = 0;
 		vrLen = 437;
 		vrLoc = 2911;
@@ -250,7 +250,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 123";
 		rLen = 66;
-		rLoc = 5156;
+		rLoc = 5258;
 		rType = 0;
 		vrLen = 1859;
 		vrLoc = 1937;
@@ -336,7 +336,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 144";
 		rLen = 0;
-		rLoc = 6143;
+		rLoc = 6245;
 		rType = 0;
 		vrLen = 583;
 		vrLoc = 2901;
@@ -356,7 +356,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 102";
 		rLen = 0;
-		rLoc = 4494;
+		rLoc = 4596;
 		rType = 0;
 		vrLen = 1744;
 		vrLoc = 2053;
@@ -449,7 +449,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 102";
 		rLen = 0;
-		rLoc = 4494;
+		rLoc = 4596;
 		rType = 0;
 		vrLen = 1818;
 		vrLoc = 1979;
@@ -459,7 +459,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 144";
 		rLen = 0;
-		rLoc = 5504;
+		rLoc = 5606;
 		rType = 0;
 		vrLen = 1562;
 		vrLoc = 685;
@@ -469,7 +469,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 47";
 		rLen = 0;
-		rLoc = 2455;
+		rLoc = 2557;
 		rType = 0;
 		vrLen = 1449;
 		vrLoc = 0;
@@ -479,7 +479,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 46";
 		rLen = 41;
-		rLoc = 1313;
+		rLoc = 1407;
 		rType = 0;
 		vrLen = 1469;
 		vrLoc = 0;
@@ -519,7 +519,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 46";
 		rLen = 41;
-		rLoc = 1313;
+		rLoc = 1407;
 		rType = 0;
 		vrLen = 1469;
 		vrLoc = 0;
@@ -529,7 +529,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 23";
 		rLen = 0;
-		rLoc = 545;
+		rLoc = 639;
 		rType = 0;
 		vrLen = 1463;
 		vrLoc = 0;
@@ -539,7 +539,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 23";
 		rLen = 0;
-		rLoc = 545;
+		rLoc = 639;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 0;
@@ -549,7 +549,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 23";
 		rLen = 0;
-		rLoc = 545;
+		rLoc = 639;
 		rType = 0;
 		vrLen = 1458;
 		vrLoc = 0;
@@ -559,7 +559,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 28";
 		rLen = 0;
-		rLoc = 837;
+		rLoc = 931;
 		rType = 0;
 		vrLen = 1484;
 		vrLoc = 0;
@@ -569,7 +569,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 26";
 		rLen = 0;
-		rLoc = 732;
+		rLoc = 826;
 		rType = 0;
 		vrLen = 1380;
 		vrLoc = 0;
@@ -593,7 +593,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 26";
 		rLen = 0;
-		rLoc = 732;
+		rLoc = 826;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 0;
@@ -640,7 +640,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 48";
 		rLen = 0;
-		rLoc = 1485;
+		rLoc = 1579;
 		rType = 0;
 		vrLen = 1571;
 		vrLoc = 0;
@@ -650,7 +650,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 51";
 		rLen = 0;
-		rLoc = 1563;
+		rLoc = 1657;
 		rType = 0;
 		vrLen = 1550;
 		vrLoc = 0;
@@ -660,7 +660,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 52";
 		rLen = 0;
-		rLoc = 1646;
+		rLoc = 1740;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 0;
@@ -710,7 +710,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 52";
 		rLen = 0;
-		rLoc = 1646;
+		rLoc = 1740;
 		rType = 0;
 		vrLen = 1535;
 		vrLoc = 0;
@@ -720,7 +720,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 46";
 		rLen = 0;
-		rLoc = 1354;
+		rLoc = 1448;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 0;
@@ -730,7 +730,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 46";
 		rLen = 0;
-		rLoc = 1354;
+		rLoc = 1448;
 		rType = 0;
 		vrLen = 1535;
 		vrLoc = 0;
@@ -870,7 +870,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 56";
 		rLen = 0;
-		rLoc = 1650;
+		rLoc = 1744;
 		rType = 0;
 		vrLen = 1629;
 		vrLoc = 345;
@@ -910,7 +910,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 56";
 		rLen = 0;
-		rLoc = 1650;
+		rLoc = 1744;
 		rType = 0;
 		vrLen = 1629;
 		vrLoc = 345;
@@ -920,7 +920,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 38";
 		rLen = 0;
-		rLoc = 1034;
+		rLoc = 1128;
 		rType = 0;
 		vrLen = 1508;
 		vrLoc = 345;
@@ -930,7 +930,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 57";
 		rLen = 0;
-		rLoc = 1650;
+		rLoc = 1744;
 		rType = 0;
 		vrLen = 1556;
 		vrLoc = 345;
@@ -1180,7 +1180,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 179";
 		rLen = 0;
-		rLoc = 6143;
+		rLoc = 6245;
 		rType = 0;
 		vrLen = 337;
 		vrLoc = 3582;
@@ -1269,7 +1269,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 55";
 		rLen = 0;
-		rLoc = 1650;
+		rLoc = 1744;
 		rType = 0;
 		vrLen = 1836;
 		vrLoc = 655;
@@ -1317,8 +1317,8 @@
 		isa = PBXTextBookmark;
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 55";
-		rLen = 805;
-		rLoc = 1650;
+		rLen = 813;
+		rLoc = 1744;
 		rType = 0;
 		vrLen = 1793;
 		vrLoc = 655;
@@ -1327,8 +1327,8 @@
 		isa = PBXTextBookmark;
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 55";
-		rLen = 805;
-		rLoc = 1650;
+		rLen = 813;
+		rLoc = 1744;
 		rType = 0;
 		vrLen = 1830;
 		vrLoc = 655;
@@ -1338,7 +1338,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 56";
 		rLen = 0;
-		rLoc = 2078;
+		rLoc = 2172;
 		rType = 0;
 		vrLen = 1830;
 		vrLoc = 655;
@@ -1908,7 +1908,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 56";
 		rLen = 0;
-		rLoc = 2078;
+		rLoc = 2172;
 		rType = 0;
 		vrLen = 1747;
 		vrLoc = 655;
@@ -1958,7 +1958,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 104";
 		rLen = 29;
-		rLoc = 3121;
+		rLoc = 3223;
 		rType = 0;
 		vrLen = 1645;
 		vrLoc = 2105;
@@ -1968,7 +1968,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 75";
 		rLen = 0;
-		rLoc = 2263;
+		rLoc = 2268;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 1098;
@@ -1978,7 +1978,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 75";
 		rLen = 0;
-		rLoc = 2263;
+		rLoc = 2268;
 		rType = 0;
 		vrLen = 1613;
 		vrLoc = 1098;
@@ -1988,7 +1988,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 74";
 		rLen = 0;
-		rLoc = 2263;
+		rLoc = 2268;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 1098;
@@ -2018,7 +2018,7 @@
 		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
 		name = "Person.m: 53";
 		rLen = 0;
-		rLoc = 1182;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 129;
@@ -2028,7 +2028,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 74";
 		rLen = 0;
-		rLoc = 2263;
+		rLoc = 2268;
 		rType = 0;
 		vrLen = 1732;
 		vrLoc = 1079;
@@ -2038,7 +2038,7 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 76";
 		rLen = 0;
-		rLoc = 2234;
+		rLoc = 2268;
 		rType = 0;
 		vrLen = 1718;
 		vrLoc = 1487;
@@ -2048,10 +2048,260 @@
 		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
 		name = "PersonListViewController.m: 76";
 		rLen = 0;
-		rLoc = 2258;
+		rLoc = 2268;
 		rType = 0;
 		vrLen = 1808;
 		vrLoc = 1310;
+	};
+	23EFB7CA1084FB9A0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2043;
+		vrLoc = 0;
+	};
+	23EFB7CB1084FB9A0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
+		name = "Person.m: 53";
+		rLen = 0;
+		rLoc = 1089;
+		rType = 0;
+		vrLen = 1274;
+		vrLoc = 129;
+	};
+	23EFB7CC1084FB9A0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526211E21067C44E0072DF0C /* PersonListViewController.h */;
+		name = "PersonListViewController.h: 22";
+		rLen = 0;
+		rLoc = 520;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 0;
+	};
+	23EFB7CD1084FB9A0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
+		name = "PersonListViewController.m: 64";
+		rLen = 0;
+		rLoc = 1929;
+		rType = 0;
+		vrLen = 1688;
+		vrLoc = 2174;
+	};
+	23EFB7CE1084FB9A0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
+		name = "PersonListViewController.m: 80";
+		rLen = 0;
+		rLoc = 2463;
+		rType = 0;
+		vrLen = 1576;
+		vrLoc = 2130;
+	};
+	23EFB7D9108501760057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADD10697D4D00218CCF /* Person.h */;
+		name = "Person.h: 29";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 0;
+	};
+	23EFB7DA108501760057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
+		name = "PersonListViewController.m: 17";
+		rLen = 701;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 1623;
+		vrLoc = 0;
+	};
+	23EFB7DB108501760057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526211E21067C44E0072DF0C /* PersonListViewController.h */;
+		name = "PersonListViewController.h: 17";
+		rLen = 33;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 0;
+	};
+	23EFB7DC108501760057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
+		name = "Person.m: 44";
+		rLen = 0;
+		rLoc = 838;
+		rType = 0;
+		vrLen = 1289;
+		vrLoc = 29;
+	};
+	23EFB7DD108501760057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262122F10680E010072DF0C /* PersonDetailsViewController.h */;
+		name = "PersonDetailsViewController.h: 21";
+		rLen = 0;
+		rLoc = 479;
+		rType = 0;
+		vrLen = 681;
+		vrLoc = 0;
+	};
+	23EFB7DE108501760057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 51";
+		rLen = 31;
+		rLoc = 1338;
+		rType = 0;
+		vrLen = 1446;
+		vrLoc = 0;
+	};
+	23EFB7DF108501760057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 47";
+		rLen = 0;
+		rLoc = 1286;
+		rType = 0;
+		vrLen = 1607;
+		vrLoc = 287;
+	};
+	23EFB7E21085019C0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 40";
+		rLen = 0;
+		rLoc = 1012;
+		rType = 0;
+		vrLen = 1619;
+		vrLoc = 287;
+	};
+	23EFB7E5108501CA0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
+		name = "PersonListViewController.m: 145";
+		rLen = 70;
+		rLoc = 4426;
+		rType = 0;
+		vrLen = 1802;
+		vrLoc = 3354;
+	};
+	23EFB7E6108501CA0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 45";
+		rLen = 0;
+		rLoc = 1144;
+		rType = 0;
+		vrLen = 1671;
+		vrLoc = 287;
+	};
+	23EFB7E7108501CA0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 49";
+		rLen = 0;
+		rLoc = 1286;
+		rType = 0;
+		vrLen = 1657;
+		vrLoc = 287;
+	};
+	23EFB7EA108502370057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19ADE10697D4D00218CCF /* Person.m */;
+		name = "Person.m: 44";
+		rLen = 0;
+		rLoc = 838;
+		rType = 0;
+		vrLen = 1289;
+		vrLoc = 29;
+	};
+	23EFB7EB108502370057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 49";
+		rLen = 0;
+		rLoc = 1286;
+		rType = 0;
+		vrLen = 2019;
+		vrLoc = 2029;
+	};
+	23EFB7EC108502370057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 46";
+		rLen = 0;
+		rLoc = 1183;
+		rType = 0;
+		vrLen = 1698;
+		vrLoc = 288;
+	};
+	23EFB7EF108502EF0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5262123010680E010072DF0C /* PersonDetailsViewController.m */;
+		name = "PersonDetailsViewController.m: 46";
+		rLen = 0;
+		rLoc = 1183;
+		rType = 0;
+		vrLen = 1750;
+		vrLoc = 288;
+	};
+	23EFB7F0108502EF0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19AD310697B0A00218CCF /* TwitterHelper.h */;
+		name = "TwitterHelper.h: 32";
+		rLen = 0;
+		rLoc = 1080;
+		rType = 0;
+		vrLen = 1080;
+		vrLoc = 0;
+	};
+	23EFB7F1108502EF0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526211E21067C44E0072DF0C /* PersonListViewController.h */;
+		name = "PersonListViewController.h: 17";
+		rLen = 33;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 0;
+	};
+	23EFB7F2108502EF0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E19AD210697B0A00218CCF /* TwitterHelper.m */;
+		name = "TwitterHelper.m: 9";
+		rLen = 141;
+		rLoc = 84;
+		rType = 0;
+		vrLen = 1656;
+		vrLoc = 0;
+	};
+	23EFB7F3108502EF0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
+		name = "PersonListViewController.m: 145";
+		rLen = 70;
+		rLoc = 4426;
+		rType = 0;
+		vrLen = 1623;
+		vrLoc = 0;
+	};
+	23EFB7F4108502EF0057E3E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */;
+		name = "PersonListViewController.m: 78";
+		rLen = 0;
+		rLoc = 2361;
+		rType = 0;
+		vrLen = 1816;
+		vrLoc = 1406;
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -2061,8 +2311,8 @@
 			1D6058900D05DD3D006BFB54 /* Presence */,
 		);
 		breakpoints = (
-			23EFB5AE107FB94E0057E3E3 /* PersonListViewController.m:153 */,
-			23EFB5C3107FB9820057E3E3 /* PersonListViewController.m:175 */,
+			23EFB5AE107FB94E0057E3E3 /* PersonListViewController.m:155 */,
+			23EFB5C3107FB9820057E3E3 /* PersonListViewController.m:177 */,
 			23EFB5D1107FBA350057E3E3 /* ImageLoadingOperation.m:29 */,
 			23EFB5DA107FBBF30057E3E3 /* ImageLoadingOperation.m:37 */,
 		);
@@ -2310,6 +2560,31 @@
 			23EFB7C31084F8BE0057E3E3 /* PBXTextBookmark */ = 23EFB7C31084F8BE0057E3E3 /* PBXTextBookmark */;
 			23EFB7C41084F8BE0057E3E3 /* PBXTextBookmark */ = 23EFB7C41084F8BE0057E3E3 /* PBXTextBookmark */;
 			23EFB7C51084F9770057E3E3 /* PBXTextBookmark */ = 23EFB7C51084F9770057E3E3 /* PBXTextBookmark */;
+			23EFB7CA1084FB9A0057E3E3 /* PBXTextBookmark */ = 23EFB7CA1084FB9A0057E3E3 /* PBXTextBookmark */;
+			23EFB7CB1084FB9A0057E3E3 /* PBXTextBookmark */ = 23EFB7CB1084FB9A0057E3E3 /* PBXTextBookmark */;
+			23EFB7CC1084FB9A0057E3E3 /* PBXTextBookmark */ = 23EFB7CC1084FB9A0057E3E3 /* PBXTextBookmark */;
+			23EFB7CD1084FB9A0057E3E3 /* PBXTextBookmark */ = 23EFB7CD1084FB9A0057E3E3 /* PBXTextBookmark */;
+			23EFB7CE1084FB9A0057E3E3 /* PBXTextBookmark */ = 23EFB7CE1084FB9A0057E3E3 /* PBXTextBookmark */;
+			23EFB7D9108501760057E3E3 /* PBXTextBookmark */ = 23EFB7D9108501760057E3E3 /* PBXTextBookmark */;
+			23EFB7DA108501760057E3E3 /* PBXTextBookmark */ = 23EFB7DA108501760057E3E3 /* PBXTextBookmark */;
+			23EFB7DB108501760057E3E3 /* PBXTextBookmark */ = 23EFB7DB108501760057E3E3 /* PBXTextBookmark */;
+			23EFB7DC108501760057E3E3 /* PBXTextBookmark */ = 23EFB7DC108501760057E3E3 /* PBXTextBookmark */;
+			23EFB7DD108501760057E3E3 /* PBXTextBookmark */ = 23EFB7DD108501760057E3E3 /* PBXTextBookmark */;
+			23EFB7DE108501760057E3E3 /* PBXTextBookmark */ = 23EFB7DE108501760057E3E3 /* PBXTextBookmark */;
+			23EFB7DF108501760057E3E3 /* PBXTextBookmark */ = 23EFB7DF108501760057E3E3 /* PBXTextBookmark */;
+			23EFB7E21085019C0057E3E3 /* PBXTextBookmark */ = 23EFB7E21085019C0057E3E3 /* PBXTextBookmark */;
+			23EFB7E5108501CA0057E3E3 /* PBXTextBookmark */ = 23EFB7E5108501CA0057E3E3 /* PBXTextBookmark */;
+			23EFB7E6108501CA0057E3E3 /* PBXTextBookmark */ = 23EFB7E6108501CA0057E3E3 /* PBXTextBookmark */;
+			23EFB7E7108501CA0057E3E3 /* PBXTextBookmark */ = 23EFB7E7108501CA0057E3E3 /* PBXTextBookmark */;
+			23EFB7EA108502370057E3E3 /* PBXTextBookmark */ = 23EFB7EA108502370057E3E3 /* PBXTextBookmark */;
+			23EFB7EB108502370057E3E3 /* PBXTextBookmark */ = 23EFB7EB108502370057E3E3 /* PBXTextBookmark */;
+			23EFB7EC108502370057E3E3 /* PBXTextBookmark */ = 23EFB7EC108502370057E3E3 /* PBXTextBookmark */;
+			23EFB7EF108502EF0057E3E3 /* PBXTextBookmark */ = 23EFB7EF108502EF0057E3E3 /* PBXTextBookmark */;
+			23EFB7F0108502EF0057E3E3 /* PBXTextBookmark */ = 23EFB7F0108502EF0057E3E3 /* PBXTextBookmark */;
+			23EFB7F1108502EF0057E3E3 /* PBXTextBookmark */ = 23EFB7F1108502EF0057E3E3 /* PBXTextBookmark */;
+			23EFB7F2108502EF0057E3E3 /* PBXTextBookmark */ = 23EFB7F2108502EF0057E3E3 /* PBXTextBookmark */;
+			23EFB7F3108502EF0057E3E3 /* PBXTextBookmark */ = 23EFB7F3108502EF0057E3E3 /* PBXTextBookmark */;
+			23EFB7F4108502EF0057E3E3 /* PBXTextBookmark */ = 23EFB7F4108502EF0057E3E3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 23799B1A107E305F0065231D /* Source Control */;
 		userBuildSettings = {
@@ -2318,35 +2593,35 @@
 	526211E21067C44E0072DF0C /* PersonListViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {744, 756}}";
-			sepNavSelRange = "{520, 0}";
+			sepNavSelRange = "{388, 33}";
 			sepNavVisRange = "{0, 874}";
 		};
 	};
 	526211E31067C44E0072DF0C /* PersonListViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {744, 2964}}";
-			sepNavSelRange = "{2258, 0}";
-			sepNavVisRange = "{1310, 1808}";
+			sepNavIntBoundsRect = "{{0, 0}, {744, 3029}}";
+			sepNavSelRange = "{2361, 0}";
+			sepNavVisRange = "{1406, 1816}";
 		};
 	};
 	5262122F10680E010072DF0C /* PersonDetailsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {871, 741}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 382}";
+			sepNavIntBoundsRect = "{{0, 0}, {744, 756}}";
+			sepNavSelRange = "{479, 0}";
+			sepNavVisRange = "{0, 681}";
 		};
 	};
 	5262123010680E010072DF0C /* PersonDetailsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {871, 806}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 2043}";
+			sepNavIntBoundsRect = "{{0, 0}, {744, 1885}}";
+			sepNavSelRange = "{1183, 0}";
+			sepNavVisRange = "{288, 1750}";
 		};
 	};
 	52E19AD210697B0A00218CCF /* TwitterHelper.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {744, 1196}}";
-			sepNavSelRange = "{459, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {744, 1287}}";
+			sepNavSelRange = "{84, 141}";
 			sepNavVisRange = "{0, 1656}";
 		};
 	};
@@ -2359,16 +2634,16 @@
 	};
 	52E19ADD10697D4D00218CCF /* Person.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {871, 741}}";
-			sepNavSelRange = "{431, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {744, 756}}";
+			sepNavSelRange = "{596, 0}";
 			sepNavVisRange = "{0, 602}";
 		};
 	};
 	52E19ADE10697D4D00218CCF /* Person.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {744, 871}}";
-			sepNavSelRange = "{1182, 0}";
-			sepNavVisRange = "{129, 1282}";
+			sepNavIntBoundsRect = "{{0, 0}, {744, 819}}";
+			sepNavSelRange = "{838, 0}";
+			sepNavVisRange = "{29, 1289}";
 		};
 	};
 	8D1107310486CEB800E47090 /* Presence-Info.plist */ = {

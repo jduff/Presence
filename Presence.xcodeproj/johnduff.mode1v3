@@ -327,25 +327,25 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>23EFB7C51084F9770057E3E3</string>
+										<string>23EFB7F4108502EF0057E3E3</string>
 										<key>history</key>
 										<array>
-											<string>23EFB5B5107FB9520057E3E3</string>
 											<string>23EFB5EB107FDE210057E3E3</string>
 											<string>23EFB5ED107FDE210057E3E3</string>
 											<string>23EFB5F0107FDE210057E3E3</string>
 											<string>23EFB63610840AF90057E3E3</string>
-											<string>23EFB6E710842B0D0057E3E3</string>
 											<string>23EFB6E810842B0D0057E3E3</string>
-											<string>23EFB6E910842B0D0057E3E3</string>
 											<string>23EFB6EA10842B0D0057E3E3</string>
 											<string>23EFB77E1084F0F50057E3E3</string>
 											<string>23EFB79E1084F5430057E3E3</string>
-											<string>23EFB7AF1084F72E0057E3E3</string>
-											<string>23EFB7C01084F8BE0057E3E3</string>
-											<string>23EFB7C11084F8BE0057E3E3</string>
-											<string>23EFB7C21084F8BE0057E3E3</string>
-											<string>23EFB7C31084F8BE0057E3E3</string>
+											<string>23EFB7D9108501760057E3E3</string>
+											<string>23EFB7DD108501760057E3E3</string>
+											<string>23EFB7EA108502370057E3E3</string>
+											<string>23EFB7EF108502EF0057E3E3</string>
+											<string>23EFB7F0108502EF0057E3E3</string>
+											<string>23EFB7F1108502EF0057E3E3</string>
+											<string>23EFB7F2108502EF0057E3E3</string>
+											<string>23EFB7F3108502EF0057E3E3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -549,8 +549,8 @@
 		<string>23EFB5C0107FB9520057E3E3</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>23EFB593107FB0CB0057E3E3</string>
-		<string>/Users/johnduff/development/workspace/Presence/Presence.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/johnduff/development/workspace/Presence/Presence.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>-3 59 1013 819 0 0 1440 878 </string>

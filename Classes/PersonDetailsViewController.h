@@ -12,9 +12,18 @@
 
 @interface PersonDetailsViewController : UITableViewController {
 	Person *person;
+	NSArray *statusUpdates;
+	NSOperationQueue *operationsQueue;
+	UIActivityIndicatorView *spinner;
 }
 
 @property (nonatomic, retain) Person *person;
+@property (nonatomic, retain) NSArray *statusUpdates;
 
 - (NSString *)statusAtIndex:(NSInteger)index;
+- (void) finishedLoadingStatusUpdates:(NSArray *)updates;
+- (void) loadStatusUpdates;
+
+- (void)showLoadingIndicators;
+- (void)hideLoadingIndicators;
 @end

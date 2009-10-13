@@ -27,11 +27,7 @@
 
 - (NSArray *) statusUpdates {
 	NSLog(@"Accessing statusUpdates");
-	if(statusUpdates == nil){
-		NSLog(@"Loading statusUpdates");
-		statusUpdates = [[TwitterHelper fetchTimelineForUsername:self.username] retain];
-	}
-	return statusUpdates;
+	return [[TwitterHelper fetchTimelineForUsername:self.username] autorelease];
 }
 
 - (NSString *) displayName {
