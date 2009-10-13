@@ -13,6 +13,7 @@
 	NSString	*username;
 	NSString	*displayName;
 	UIImage		*profileImage;
+	NSURL		*profileImageURL;
 	NSArray		*statusUpdates;
 	
 }
@@ -20,6 +21,7 @@
 @property(retain) NSString *username;
 @property(retain) NSString *displayName;
 @property(retain) UIImage *profileImage;
+@property(retain) NSURL *profileImageURL;
 @property(readonly) NSArray *statusUpdates;
 
 - (id) initWithUsername:(NSString *)value;

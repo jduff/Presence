@@ -7,18 +7,29 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Person.h"
+#import "StatusComposeViewController.h"
 
 
-@interface PersonListViewController : UITableViewController {
-//	IBOutlet UIButton *joshButton;
-//	IBOutlet UIButton *geoffButton;
-//	IBOutlet UIImageView *joshImage;
-//	IBOutlet UIImageView *geoffImage;
-	
+@interface PersonListViewController : UITableViewController <StatusComposeViewProtocol> {
 	NSMutableArray *people;
+	NSOperationQueue *operationsQueue;
+	UIActivityIndicatorView *spinner;
+	NSMutableDictionary *imageCache;
 }
-//
-//- (IBAction)viewPerson:(id)sender;
-//- (IBAction)rightButtonAction:(id)sender;
+
+- (void)showLoadingIndicators;
+- (void)hideLoadingIndicators;
+
+- (void) beginLoadingTwitterUsers;
+- (void) loadTwitterUsers;
+- (void) didFinishLoadingTwitterUsers:(NSArray *)users;
+- (UIImage *) getImageForURL:(NSURL *)url;
+- (void) didFinishLoadingImageWithResult:(NSDictionary *)result;
+
+- (void) composeButtonPressed:(id)sender;
+
+- (void) sendMessage:(NSString *)message;
+- (void) didFinishSendingMessage;
 
 @end

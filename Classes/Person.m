@@ -14,10 +14,11 @@
 @synthesize username;
 @synthesize displayName;
 @synthesize profileImage;
+@synthesize profileImageURL;
 @synthesize statusUpdates;
 
 - (id) initWithUsername:(NSString *)value {
-	if(self == [super init]) {
+	if(self = [super init]) {
 		self.username = value;
 		[self loadData];
 	}
@@ -49,12 +50,8 @@
 	NSLog(@"Loading data from Twitter");
 	// load the data from twitter
 	NSDictionary *data = [TwitterHelper fetchInfoForUsername:self.username];
-	NSData *imageData = [[NSData alloc] 
-						  initWithContentsOfURL:[NSURL URLWithString:[data objectForKey:@"profile_image_url"]]];
-	
-	self.profileImage = [[UIImage alloc] initWithData:imageData];
+	self.profileImageURL = [NSURL URLWithString:[data objectForKey:@"profile_image_url"]];
 	self.displayName = [data objectForKey:@"screen_name"];
-	[imageData release];
 }
 
 - (void) dealloc {
@@ -62,6 +59,7 @@
 	[statusUpdates release];
 	[displayName release];
 	[profileImage release];
+	[profileImageURL release];
 	[super dealloc];
 }
 

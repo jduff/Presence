@@ -11,6 +11,9 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		23EFB56E107F860D0057E3E3 /* ImageLoadingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFB56D107F860D0057E3E3 /* ImageLoadingOperation.m */; };
+		23EFB61F108400C80057E3E3 /* StatusComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFB61D108400C80057E3E3 /* StatusComposeViewController.m */; };
+		23EFB620108400C80057E3E3 /* StatusComposeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EFB61E108400C80057E3E3 /* StatusComposeView.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		526211E41067C44E0072DF0C /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526211E31067C44E0072DF0C /* PersonListViewController.m */; };
@@ -35,6 +38,11 @@
 		1D3623250D0F684500981E51 /* PresenceAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresenceAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Presence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23EFB56C107F860D0057E3E3 /* ImageLoadingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoadingOperation.h; sourceTree = "<group>"; };
+		23EFB56D107F860D0057E3E3 /* ImageLoadingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoadingOperation.m; sourceTree = "<group>"; };
+		23EFB61C108400C80057E3E3 /* StatusComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusComposeViewController.h; sourceTree = "<group>"; };
+		23EFB61D108400C80057E3E3 /* StatusComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusComposeViewController.m; sourceTree = "<group>"; };
+		23EFB61E108400C80057E3E3 /* StatusComposeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StatusComposeView.xib; path = Classes/StatusComposeView.xib; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +89,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				23EFB61C108400C80057E3E3 /* StatusComposeViewController.h */,
+				23EFB61D108400C80057E3E3 /* StatusComposeViewController.m */,
 				52E19AAF10697AE800218CCF /* Twitter */,
 				5262122F10680E010072DF0C /* PersonDetailsViewController.h */,
 				5262123010680E010072DF0C /* PersonDetailsViewController.m */,
@@ -90,6 +100,8 @@
 				1D3623250D0F684500981E51 /* PresenceAppDelegate.m */,
 				52E19ADD10697D4D00218CCF /* Person.h */,
 				52E19ADE10697D4D00218CCF /* Person.m */,
+				23EFB56C107F860D0057E3E3 /* ImageLoadingOperation.h */,
+				23EFB56D107F860D0057E3E3 /* ImageLoadingOperation.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				23EFB61E108400C80057E3E3 /* StatusComposeView.xib */,
 				52E19AAC10697AB700218CCF /* TwitterUsers.plist */,
 				5262138D106837D90072DF0C /* background2.jpg */,
 				526213881068370D0072DF0C /* background.jpg */,
@@ -223,6 +236,7 @@
 				526213891068370D0072DF0C /* background.jpg in Resources */,
 				5262138E106837D90072DF0C /* background2.jpg in Resources */,
 				52E19AAD10697AB700218CCF /* TwitterUsers.plist in Resources */,
+				23EFB620108400C80057E3E3 /* StatusComposeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +256,8 @@
 				52E19AD110697AF600218CCF /* SBJSON.m in Sources */,
 				52E19AD410697B0A00218CCF /* TwitterHelper.m in Sources */,
 				52E19ADF10697D4D00218CCF /* Person.m in Sources */,
+				23EFB56E107F860D0057E3E3 /* ImageLoadingOperation.m in Sources */,
+				23EFB61F108400C80057E3E3 /* StatusComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
